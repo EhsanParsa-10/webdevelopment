@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial;
+    margin: 3px;
+}
+
+section {
+    border: 1px solid steelblue;
+    padding: 10px;
+}
+
+section > header {
+    background: url("header.jpg");
+    height: 80px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+nav {
+    background: #444;
+    padding: 5px;
+    font-size: 10px;
+}
+
+nav a {
+    color: lime;
+}
+
+article {
+    background: #eee;
+    padding: 10px 5px;
+    border-bottom: 3px solid white;
+}
+
+h2 {
+    font-size: 18px;
+    color: #444;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 9px;
+}
+
+section > footer {
+    font-size: 10px;
+}

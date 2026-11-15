@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+header h1, header p {
+    color: #edf2f4;
+    margin: 0;
+}
+
+nav {
+    background-color: #8d99ae;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #2b2d42;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+}
+
+h2 {
+    color: #2b2d42;
+    border-bottom: 2px solid #ef233c;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+section img {
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+main a {
+    color: #ef233c;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #8d99ae;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #666666;
+}
+
+.vrienden-tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #006699;
+}
+
+.vrienden-tabel th {
+    background-color: #006699;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    border-left: 1px solid #0070a8;
+}
+
+.vrienden-tabel td {
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #333333;
+}
+
+.vrienden-tabel tr.alt {
+    background-color: #f2f7f9;
+}
+
+.onbekend {
+    background-color: red;
+}
